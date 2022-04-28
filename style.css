@@ -1,0 +1,52 @@
+/* This css code handles our navbar */
+nav {
+  /* this change the background color of the navbar */
+  background-color: orangered;
+  /* This adds creates blank space around the navbar */
+  padding: 10px;
+}
+/* This code handles the nav-list class */
+.nav-list{
+  /* this will remove the circle in front of the items in the list */
+  list-style: none;
+  /* this will active flexbox and put the items in one row */
+  display: flex;
+  /* this flexbox attribute will move all the items to the center */
+  justify-content: center;
+}
+/* This code handles the links in the unordered list */
+.nav-item{
+  /* this will add padding (space) to each list item */
+  padding: 10px 15px;
+  /* this will remove the underline from our links */
+  text-decoration: none;
+  /* this will change the text color of the links */
+  color: purple;
+}
+
+/* this code handles the footer of my html */
+footer {
+/* this changes the background color of the footer */
+  background-color: lightskyblue;
+  
+}
+
+h1{
+ /* chnages to the front of the h1 */  
+ font-family: Cambria;
+ /* changes the front size */
+ font-size: 30px;
+ /* makes all the letters uppercase */
+ text-transform: uppercase;
+ /* makes the front italics */
+ font-style: italic;
+ /* changes the color of the text */
+ color: darkred;
+}
+
+.centerBold {
+ /* The text changes color and centered */
+  text-align: center;
+  font-style: bold;
+  color: darkgreen;
+}
